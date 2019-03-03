@@ -5,6 +5,11 @@
 	padding: 8px;
 }
 
+.artist-box .image img {
+	width: 400px;
+	height: 300px;
+}
+
 .artist-box .name {
 	color: #4f4f4f;
 }

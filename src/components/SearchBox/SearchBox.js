@@ -2,7 +2,7 @@ import React from 'react';
 import { propTypes, defaultProps } from './prop-types';
 import './style.css';
 import searchIcon from './search.png';
-const SearchBox = ({ text, onInput }) => {
+const SearchBox = ({ onInput }) => {
 	return (
 		<div className="search-box">
 			<div className="search-icon">
@@ -12,7 +12,6 @@ const SearchBox = ({ text, onInput }) => {
 				className="input"
 				type="text"
 				placeholder="Search artists"
-				value={text}
 				onChange={e => onInput(e.target.value)} />
 		</div>
 	);

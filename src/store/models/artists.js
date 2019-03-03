@@ -1,9 +1,12 @@
 import uuid from 'uuid/v1';
 import axios from 'axios';
+
+const defaultImage = 'https://www.ludwig-musser.com/application/themes/ludwig_musser/assets/images/artist-list-default.jpg';
 export default {
   state: [],
   reducers: {
     addArtist(state, name, img) {
+      img = img || defaultImage;
       return [
         ...state,
         {

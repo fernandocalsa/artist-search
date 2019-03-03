@@ -10,7 +10,7 @@ const SearchArtists = ({ findArtists, artists }) => {
 			<SearchBox onInput={text => findArtists(text)}/>
 			<div className="artists-results">
 				{artists && artists.map(artist => (
-					<ArtistBox artist={artist} />
+					<ArtistBox key={artist.id} artist={artist} />
 				))}
 			</div>
 		</div>

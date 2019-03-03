@@ -1,0 +1,22 @@
+.artist-box {
+	display: flex;
+	flex-direction: column;
+	background-color: #FFF;
+	padding: 8px;
+}
+
+.artist-box .name {
+	color: #4f4f4f;
+}
+
+.artist-box .follow-btn {
+	background-color: #00b3ad;
+	color: #FFF;
+	border: none;
+	border-radius: 2px;
+	padding: 8px;
+}
+
+.artist-box .follow-btn:hover {
+	cursor: pointer;
+}

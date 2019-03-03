@@ -4,7 +4,7 @@ import './style.css';
 import searchIcon from './search.png';
 const SearchBox = ({ text, onInput }) => {
 	return (
-		<div className="container">
+		<div className="search-box">
 			<div className="search-icon">
 				<img src={searchIcon} alt="icon" />
 			</div>
